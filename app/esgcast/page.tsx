@@ -78,7 +78,16 @@ export default function Home() {
         </div>
       </div>
       <div className='esgcastContentPlaylist'>
-        <iframe style={{ borderRadius: "12px", margin: "0 auto"}} src="https://open.spotify.com/embed/playlist/1y0rOHpyMRsr6BUOfS86Qs?utm_source=generator&theme=0" width="80%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe
+  style={{ borderRadius: "12px", margin: "0 auto" }}
+  src="https://open.spotify.com/embed/playlist/1y0rOHpyMRsr6BUOfS86Qs?utm_source=generator&theme=0"
+  width="80%"
+  height="352"
+  frameBorder="0"
+  allowFullScreen
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy"
+/>
       </div>
     </div>
 
